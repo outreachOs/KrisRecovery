@@ -243,6 +243,7 @@ section        { padding: 68px 0; }
   background: var(--white); border-radius: var(--r2);
   box-shadow: var(--shadow2); padding: 26px;
   border-top: 4px solid var(--yellow);
+  min-width: 0; width: 100%; overflow: hidden;
 }
 .form-card-title { font-family: 'Barlow Condensed', sans-serif; font-size: 1.45rem; font-weight: 900; text-transform: uppercase; color: var(--navy); margin-bottom: 18px; }
 .form-group { margin-bottom: 13px; }
@@ -250,9 +251,10 @@ section        { padding: 68px 0; }
 .form-group input,
 .form-group select,
 .form-group textarea {
-  width: 100%; padding: 11px 13px; border: 1.5px solid var(--border);
+  width: 100%; max-width: 100%; padding: 11px 13px; border: 1.5px solid var(--border);
   border-radius: var(--r); font-size: 0.94rem; color: var(--text);
   background: var(--white); transition: border-color 0.18s; appearance: none;
+  box-sizing: border-box;
 }
 .form-group input:focus,
 .form-group select:focus,

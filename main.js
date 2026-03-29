@@ -45,10 +45,10 @@ function toggleFaq(btn) {
 
 // ── CHAT ──
 const BOT_REPLIES = [
-  "Thanks! Kris will see this shortly. For emergencies please call <strong>07548 282598</strong> directly — he answers 24/7 🚨",
-  "Got it. For urgent jobs, calling is always fastest: <strong>07548 282598</strong>. Kris answers personally.",
+  "Thanks! Kris will see this shortly. For emergencies please call <strong>0116 488 3518</strong> directly — he answers 24/7 🚨",
+  "Got it. For urgent jobs, calling is always fastest: <strong>0116 488 3518</strong>. Kris answers personally.",
   "Message received! You can also reach Kris on WhatsApp using the button above.",
-  "Thanks for getting in touch. For live breakdowns always call <strong>07548 282598</strong> — much faster than chat."
+  "Thanks for getting in touch. For live breakdowns always call <strong>0116 488 3518</strong> — much faster than chat."
 ];
 let botIdx = 0;
 
@@ -78,7 +78,7 @@ async function sendChat() {
     `━━━━━━━━━━━━━━━━━━\n` +
     `💬 <b>Message:</b> ${escHtml(text)}\n` +
     `━━━━━━━━━━━━━━━━━━\n` +
-    `⚡ Reply: https://wa.me/447548282598`
+    `⚡ Reply: https://wa.me/441164883518`
   );
 
   setTimeout(() => {
